@@ -1,0 +1,1 @@
+一个好用的二级菜单封装，通过- (instancetype)initWithFrame:(CGRect)frame title:(NSString *)title subView:(UIView *)subView这个方法初始化控件，把二级菜单view传入，控制器遵守SecontMenuProtocol协议并实现方法即可拿到二级目录点击后高度变化的回调。
